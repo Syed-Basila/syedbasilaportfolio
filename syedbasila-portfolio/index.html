@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.theme.default.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
+    <title>Syed Basila S</title>
+    <link rel="icon" href="assets/images/logo.jpeg">
+
+    <style>
+        .owl-carousel .owl-nav {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            width: 100%;
+        }
+
+        .owl-carousel .owl-prev {
+            position: absolute;
+            left: -10px;
+            color: white !important;
+        }
+
+        .owl-carousel .owl-next {
+            position: absolute;
+            right: -10px;
+            color: white !important;
+        }
+    </style>
+
+</head>
+
+<body style="overflow-x: hidden;">
+    <div class="preloader-container" id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <div id="whole-content" style="display: none;">
+
+        <!-- Navigation -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark " id="nab">
+            <div class="container">
+
+
+                <a href="" class="navbar-brand" style="font-size:xx-large; font-weight: 600;">
+        Syed Basila S
+    </a>
+
+
+                <button class="navbar-toggler border-0 shadow-none d-sm-none d-none" data-bs-toggle="collapse" data-bs-target="#nav" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+                <div class="collapse navbar-collapse " id="nav">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link navLink">Home</a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="#about" class="nav-link navLink">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skills" class="nav-link navLink">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#project" class="nav-link navLink">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link navLink">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- navigation ends -->
+
+
+        <!-- Home page -->
+
+        <div class="container">
+            <div class="row hero-container">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12  ">
+                    <div class="home">
+                        <h4 class="home-title">Hey I'm <span class="hh">Syed Basila SagulHameed</span></h4>
+                        <h2>I'm a <span class="typing"></span></h2>
+                        <span class="home2" style="font-weight: 600;">Full Stack Web Developer | Python Developer  |<br> 
+            Digital Marketer | AI/ML & Robotics | Wordpress Developer </span><br>
+
+                        <div class="btns d-flex">
+                            <a href="#project" class="btn mt-2 menu-btn2 shadow-none ">My Projects</a>
+                            <a href="assets/ResPort.pdf" download="Resume.pdf" class="btn mt-2 menu-btn shadow-none ">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6  col-md-6 col-sm-12 col-12 hero-img ">
+                    <div class="hero-content" style="cursor: pointer;">
+                        <div class="tech-icons ">
+                            <div class="tech-icon">
+                                <img src="assets/images/github.png" alt="">
+                            </div>
+                            <div class="tech-icon">
+                                <img src="assets/images/ai1.png" alt="">
+                            </div>
+                            <div class="tech-icon">
+                                <img src="assets/images/py2.png" alt="">
+                            </div>
+                            <div class="tech-icon">
+                                <img src="assets/images/fig1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="main-img-container">
+                            <img src="assets/images/basi.jpeg" id="logo" class="img-fluid main-img" alt="">
+                        </div>
+                    </div>
+
+                    <center>
+                        <div class="d-flex tech ps-5 " style="cursor: pointer;">
+
+                            <div class="tech-icon">
+                                <img src="assets/images/rec.png" alt="">
+                            </div>
+                            <div class="tech-icon">
+                                <img src="assets/images/mysql1.png" alt="">
+                            </div>
+                            <div class="tech-icon">
+                                <img src="assets/images/node6.png" alt="">
+                            </div>
+                            <div class="tech-icon">
+                                <img src="assets/images/wdp.png" alt="">
+                            </div>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Home page Ends-->
+
+        <!-- about starts -->
+
+        <section id="about" class="topic container">
+            <span class="text-white">About Me</span>
+        </section>
+
+        <div class="container about-container mt-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-6 d-none d-md-flex mx-auto">
+                    <div class="personal">
+                        <img src="assets/images/logo.jpeg" alt="" class="img-fluid">
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12">
+                    <div class=" about-expereince">
+                        <div class="row">
+                            <div class="d-flex flex-column gap-4 justify-content-center ">
+                                <div class="d-flex flex-column gap-4">
+                                    <div class="progressCard d-flex align-items-center gap-3">
+                                        <div>
+                                            <i class="fa-solid fa-laptop-code text-white fa-lg"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="card-title experience-no">Trainer</h5>
+                                            <p class="card-text text-white">I am currently working as a trainer at Computer World, specializing in Full Stack Web Development, Python programming, and Digital Marketing. My role involves guiding students through comprehensive courses, ensuring they gain practical skills and in-depth knowledge in these areas.</p>
+                                        </div>
+                                        <div class="glass-hover"></div>
+                                    </div>
+                                    <div class="progressCard d-flex align-items-center gap-3">
+                                        <div>
+                                            <i class="fa-solid fa-server text-white fa-lg"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="card-title experience-no">Freelancer</h5>
+                                            <p class="card-text text-white">I am a freelancer with expertise in various domains, including application development, website development, digital marketing, and WordPress websites. Additionally, I offer personal training sessions in these areas, helping clients achieve their specific goals with tailored guidance and hands-on support.
+                                            </p>
+                                        </div>
+                                        <div class="glass-hover"></div>
+                                    </div>
+
+                                    <div class="d-flex align-items-center gap-3">
+                                        <div>
+                                            <h5 class="text-white d-none d-md-flex">Connect with me on:</h5>
+                                        </div>
+                                        <div class=" mx-start">
+                                            <ul class="d-flex gap-3 social list-unstyled mt-2">
+
+                                                </li>
+                                                <li>
+                                                    <a class="about2" href="https://www.linkedin.com/in/syed-basila-s/" target="_blank"><i
+                            class="fa-brands fa-xl fa-linkedin"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a class="about2" href="https://github.com/Syed-Basila" target="_blank"><i
+                            class="fa-brands fa-xl pe-2 fa-github"></i> </a>
+                                                </li>
+                                               
+                                                <li>
+                                                    <a class="about2" href="https://www.facebook.com/?paipv=0&eav=AfZ9PYe7lvEHtobjGFOLHmMribP0sE0AcP0QsPUUvvKrPpKWJDcka2uJu2kGe_5KQ2U&_rdr" target="_blank"><i
+                            class="fa-brands fa-xl pe-2 fa-facebook"></i></a>
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- about Ends-->
+
+        <!-- skills starts -->
+
+        <section id="skills" class="topic container">
+            <span class="text-white">Skills </span>
+        </section>
+
+        <div class="container about-container  mt-4">
+            <ul class="nav nav-pills mb-3 gap-3 d-flex justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active tab-btn" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Skills</button>
+                </li>
+
+               
+            </ul>
+            <div class="tab-content mt-4" id="pills-tabContent">
+
+                <div class="tab-pane fade show active" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+
+                    <div class="skill-container ">
+                        <div class="skill-cover">
+                            <div class="skill-content">
+                                <img src="assets/images/node6.png" class="skill-img" alt="" title="Python">
+                                <div class="glass-hover"></div>
+                            </div>
+                            <div class="skill-content">
+                                <img src="assets/css/assets/C_Logo.png" class="skill-img" alt="" title="C Programming">
+                                <div class="glass-hover"></div>
+                            </div>
+                            <div class="skill-content">
+                                <img src="assets/css/assets/mongo.png" class="skill-img" alt="" title="MongoDB">
+                                <div class="glass-hover"></div>
+                            </div>
+                            <div class="skill-content">
+                                <img src="assets/css/assets/sql.png" class="skill-img" alt="" title="SQL">
+                                <div class="glass-hover"></div>
+
+                            </div>
+                        </div>
+
+                        <div class="skill-cover">
+                            <div class="skill-content">
+                                <img src="assets/images/wdp.png" class="skill-img" alt="" title="Wordpress">
+                                <div class="glass-hover"></div>
+                            </div>
+                            <div class="skill-content ">
+                                <img src="assets/css/assets/numpy.png" class="skill-img" alt="" title="Numpy">
+                                <div class="glass-hover"></div>
+                            </div>
+                            <div class="skill-content">
+                                <img src="assets/css/assets/pandas.png" class="skill-img" alt="" title="Pandas">
+                                <div class="glass-hover"></div>
+                            </div>
+                            <div class="skill-content">
+                                <img src="assets/images/fig1.png" class="skill-img" alt="" title="Figma">
+                                <div class="glass-hover"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-cover">
+                            <div class="skill-content">
+                                <img src="assets/css/assets/ml.jpg" class="skill-img" alt="" title="Machine learning">
+                                <div class="glass-hover"></div>
+                            </div>
+                            <div class="skill-content">
+                                <img src="assets/css/assets/mathplot.png" class="skill-img" alt="" title="Matplotlib">
+                                <div class="glass-hover"></div>
+                            </div>
+                            <div class="skill-content">
+                                <img src="assets/images/rec.png" class="skill-img" alt="" title="Big data">
+                                <div class="glass-hover"></div>
+                            </div>
+                            <div class="skill-content">
+                                <img src="assets/images/py2.png" class="skill-img" alt="" title="python">
+                                <div class="glass-hover"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+
+        <!-- skills ends -->
+
+        <!-- Projects -->
+        <section id="project" class="topic container">
+            <span class="text-white">Projects</span>
+        </section>
+
+        <div class="modal fade" id="projectModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content projectModal">
+                    <div class="modal-header">
+                        <h1 class="modal-title text-white fs-5" id="exampleModalLabel">Project Details</h1>
+                        <button type="button" class="btn-close" style="background-color: white;" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="assets/images/insta.jpeg" alt="" class="img-fluid">
+                        
+                        <div class="modal-text mt-2">
+                            <p class="text-white">
+                                "<strong>ASL Interpreter Robot </strong>: I led the development of an ASL Interpreter Robot, designed to translate audio and text into American Sign Language (ASL) and vice versa. The project utilized <strong>Python, OpenCV, and Arduino UNO, along with embedded C for hardware control</strong>. The robot interprets spoken language into ASL gestures using a robotic hand, while also converting ASL gestures back into text and audio. This innovative solution aims to bridge communication gaps for the deaf and blind communities, making interactions more accessible and inclusive."
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" style="font-weight: 500;" data-bs-dismiss="modal">Close</button>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="projectModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content projectModal">
+                    <div class="modal-header">
+                        <h1 class="modal-title text-white fs-5" id="exampleModalLabel">Project Details</h1>
+                        <button type="button" class="btn-close" style="background-color: white;" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="assets/images/weather.jpeg" alt="" class="img-fluid">
+                        
+                        <div class="modal-text mt-2">
+                            <p class="text-white">
+                                "<strong>Restaurant Billing System </strong> : I designed the user interface for a Restaurant Automatic Billing and Attendance System using Figma. The UI was tailored to streamline operations by automatically tracking attendance and generating bills for each mealtime. The design focuses on user-friendliness, ensuring that restaurant staff can easily manage orders, track attendance, and process payments efficiently. The intuitive layout and interactive elements were created to enhance the overall user experience, making the system both visually appealing and functional.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" style="font-weight: 500;" data-bs-dismiss="modal">Close</button>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="projectModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content projectModal">
+                    <div class="modal-header">
+                        <h1 class="modal-title text-white fs-5" id="exampleModalLabel">Project Details</h1>
+                        <button type="button" class="btn-close" style="background-color: white;" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="assets/images/squid.jpeg" alt="" class="img-fluid">
+                       
+                        <div class="modal-text mt-2">
+                            <p class="text-white">
+                                "<strong>Suga Beauty Blush</strong>: I developed a fully animated and interactive website for Sugabeauty Blush Beauty Parlour using <strong>HTML, CSS, and JavaScript </strong>. The website features a modern, responsive design with dynamic animations that enhance user engagement. It showcases the parlour's services, portfolio, and contact information in a visually appealing and easy-to-navigate layout, providing an immersive experience for visitors."
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" style="font-weight: 500;" data-bs-dismiss="modal">Close</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="projectModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content projectModal">
+                    <div class="modal-header">
+                        <h1 class="modal-title text-white fs-5" id="exampleModalLabel">Project Details</h1>
+                        <button type="button" class="btn-close" style="background-color: white;" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="assets/images/Delhi.jpeg" alt="" class="img-fluid">
+                    
+                        <div class="modal-text mt-2">
+                            <p class="text-white">
+                                "<strong>3D Navigation System</strong>: I developed a 3D Indoor Navigation system using <strong>Mapbox, integrated with real-time location data from Google Sheets</strong>. The project offers a detailed 3D view of building interiors, guiding users from one location to another through rooms, corridors, and other spaces. By syncing Mapbox with Google Sheets, the navigation system dynamically updates markers and paths, providing an interactive and immersive experience. This solution is perfect for navigating complex indoor environments like large campuses, shopping malls, or office buildings.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" style="font-weight: 500;" data-bs-dismiss="modal">Close</button>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="owl-carousel mt-5 container project-container">
+            <div class="projectCard">
+                <img src="assets/images/1.png" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#projectModal8">
+            </div>
+
+            <div class="projectCard">
+                <img src="assets/images/2.png" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#projectModal6">
+            </div>
+
+            <div class="projectCard">
+                <img src="assets/images/3.png" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#projectModal9">
+            </div>
+
+            <div class="projectCard">
+                <img src="assets/images/4.png" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#projectModal7">
+            </div>
+
+        </div>
+
+        <!-- Projects Ends-->
+
+        <!-- Contact -->
+        <section id="contact" class="topic container ">
+            <span class="text-white">Contact Me</span>
+        </section>
+
+        <div class="container contact-container py-3 mt-4">
+            <div class="row d-flex justify-content-center  gap-4">
+                <div class="col-lg-5 col-md-12 col-sm-12 col-12 d-flex flex-column contact-left-wrapper order-lg-1  order-2">
+                    <div class="row g-0 d-flex flex-column contact-left-content">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-phone fa-xl"></i>
+                        </div>
+                        <div class="contact-text">
+                            <a href="tel:7550377171">
+                                <p>9361839359</p>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="row g-0  d-flex flex-column contact-left-content">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-envelope fa-xl"></i>
+                        </div>
+                        <div class="contact-text">
+                            <a href="mailto:knivetha2453@gmail.com">
+                                <p>syedbasila77@gmail.com</p>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+
+
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-2 order-1  mt-1">
+
+                    <div class="d-flex flex-column gap-4">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                <input type="text" class="form-control shadow-none " placeholder="Enter Name*" id="name">
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-12 mt-lg-0 mt-4 ">
+                                <input type="email" class="form-control shadow-none " placeholder="Enter Email*" id="email">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                <input type="text" class="form-control shadow-none " placeholder="Enter Subject* " id="sub">
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-12 mt-lg-0 mt-4 ">
+                                <input type="num" class="form-control shadow-none " placeholder="Enter Phone Number*" id="phone">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-12">
+                            <textarea class="form-control shadow-none " cols="30" id="msg" rows="5" placeholder="Enter Message..."></textarea>
+                            <div class="col-12 mt-3">
+                                <button id="submit" class="btn w-100 contact-btn shadow-none ">Send Message <i
+                  class="fa-solid fa-share ps-2"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact ends-->
+
+        <!-- footer -->
+        <footer style=" display: flex;justify-content: center;background-color: rgba(34, 8, 49, 0.801); padding: 0.6rem;">
+            <a href="#" style="font-size: 0.95rem;text-decoration: none;color: white;"> &bigotimes; syedbasila.netlify.app &bigotimes;</a>
+        </footer>
+
+        <!-- footer End-->
+
+    </div>
+
+
+    <!-- JS files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.theme.default.min.css">
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js" integrity="sha512-Zq9o+E00xhhR/7vJ49mxFNJ0KQw1E1TMWkPTxrWcnpfEFDEXgUiwJHIKit93EW/XxE31HSI5GEOW06G6BF1AtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css" integrity="sha512-O03ntXoVqaGUTAeAmvQ2YSzkCvclZEcPQu1eqloPaHfJ5RuNGiS4l+3duaidD801P50J28EHyonCV06CUlTSag==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script>
+        window.onload = function() {
+            document.getElementById('preloader').style.display = 'none';
+            document.getElementById('whole-content').style.display = 'block';
+        };
+
+        $(document).ready(function() {
+
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                responsiveClass: true,
+                margin: 10,
+                center: true,
+                nav: true,
+                dots: true,
+                autoplay: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    600: {
+                        items: 2,
+                        nav: true
+                    },
+                    1000: {
+                        items: 2,
+                        nav: true
+                    }
+                },
+
+                navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"]
+            })
+
+        })
+
+
+        $("#submit").click(function() {
+            var name = $("#name").val();
+            var email = $("#email").val();
+            var sub = $("#sub").val();
+            var phn = $("#phone").val();
+            var msg = $("#msg").val();
+
+            if (name == "") {
+                iziToast.error({
+                    title: 'Error',
+                    message: 'Enter Your Name',
+                    position: 'topRight',
+                });
+            } else if (email == "") {
+                iziToast.error({
+                    title: 'Error',
+                    message: 'Enter Your Email',
+                    position: 'topRight',
+                });
+            } else if (sub == "") {
+                iziToast.error({
+                    title: 'Error',
+                    message: 'Enter Your Subject',
+                    position: 'topRight',
+                });
+            } else if (phn == "") {
+                iziToast.error({
+                    title: 'Error',
+                    message: 'Enter Your Number',
+                    position: 'topRight',
+                });
+            } else {
+                var whatsappMessage = `From Your Portfolio \n\n Name: ${name}\nEmail: ${email}\nSubject: ${sub}\nNumber: ${phn}\nMessage: ${msg}`;
+
+                var whatsappLink = `https://wa.me/9361839359/?text=${encodeURIComponent(whatsappMessage)}`;
+
+                window.location.href = whatsappLink;
+
+                $("#name").val("");
+                $("#email").val("");
+                $("#sub").val("");
+                $("#phone").val("");
+                $("#msg").val("");
+
+
+            }
+        });
+
+        $(document).ready(function() {
+
+            $('#imagePopupTrigger').click(function(e) {
+                e.preventDefault();
+                $('#imagePopupModal').modal('show');
+            });
+        });
+
+        document.getElementById("logo").addEventListener("contextmenu", function(event) {
+            event.preventDefault()
+        })
+    </script>
+</body>
+
+</html>
